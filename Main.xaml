@@ -166,7 +166,7 @@
         <InArgument x:TypeArguments="x:String">[sampleText.Replace("Infy","Infosys")]</InArgument>
       </Assign.Value>
     </Assign>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="433.6,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[sampleText.Replace(&quot;Infy&quot;,&quot;Infosys&quot;)]" />
+    <WriteLine DisplayName="Display Result" sap:VirtualizedContainerService.HintSize="433.6,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[sampleText.Replace(&quot;Infy&quot;,&quot;Infosys&quot;)]" />
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="433.6,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="[sampleText.Length.ToString]" />
     <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_3">
       <Assign.To>
