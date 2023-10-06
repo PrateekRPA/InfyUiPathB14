@@ -1,0 +1,12 @@
+﻿{
+  "Name": "BP Travel - Search",
+  "Type": "Screen",
+  "Id": "a-6IkCKzWkK07H3eTmYoRw",
+  "Reference": "mVX6yMJp6UeHe0bC9nt2CA/a-6IkCKzWkK07H3eTmYoRw",
+  "ParentRef": "mVX6yMJp6UeHe0bC9nt2CA/dJWOccjCIU2yKuEIOm83PQ",
+  "Created": "2023-10-04T03:55:55.1376106Z",
+  "Updated": "2023-10-04T03:55:55.1376106Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.8.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

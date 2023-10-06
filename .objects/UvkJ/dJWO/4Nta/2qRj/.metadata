@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Children",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "2qRjYf7urkeHUkyHoj0HZA",
+  "Reference": "mVX6yMJp6UeHe0bC9nt2CA/2qRjYf7urkeHUkyHoj0HZA",
+  "ParentRef": "mVX6yMJp6UeHe0bC9nt2CA/4NtaNhGKhEmlpG1jCTBZCQ",
+  "Created": "2023-10-04T03:55:56.0324287Z",
+  "Updated": "2023-10-04T03:55:56.0324287Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.8.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

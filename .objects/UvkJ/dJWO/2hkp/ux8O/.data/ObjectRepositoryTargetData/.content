@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1SPCvqYwo0e3J6qzCU-jdw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://bptravel.blueprism.com/login.html" DesignTimeRectangle="667, 229, 361, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT username'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='username' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='username' type='text' tag='INPUT' class='text' aaname='' /&gt;" Guid="834073b5-559a-445e-8d66-3947a7421397" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Log In' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="339012b8710d35a1207d2d09546b3a6a.png" xmlns="">0kT6X1T1z_kmxfEevBwTd7w</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

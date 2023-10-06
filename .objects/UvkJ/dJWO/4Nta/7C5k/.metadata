@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Departing",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "7C5k3-8fqEGpohE-ssJjIg",
+  "Reference": "mVX6yMJp6UeHe0bC9nt2CA/7C5k3-8fqEGpohE-ssJjIg",
+  "ParentRef": "mVX6yMJp6UeHe0bC9nt2CA/4NtaNhGKhEmlpG1jCTBZCQ",
+  "Created": "2023-10-04T03:55:55.6110049Z",
+  "Updated": "2023-10-04T03:55:55.6110049Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.8.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

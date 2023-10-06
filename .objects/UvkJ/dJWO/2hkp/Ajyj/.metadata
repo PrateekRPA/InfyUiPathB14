@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Log In",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "AjyjJ8KFBEeXx5X5a8nsRw",
+  "Reference": "mVX6yMJp6UeHe0bC9nt2CA/AjyjJ8KFBEeXx5X5a8nsRw",
+  "ParentRef": "mVX6yMJp6UeHe0bC9nt2CA/2hkpyuE55Ey1EEkRM1A69g",
+  "Created": "2023-10-04T03:55:55.0285058Z",
+  "Updated": "2023-10-04T03:55:55.0285058Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.8.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

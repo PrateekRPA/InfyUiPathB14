@@ -1,0 +1,155 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Windows_Order_System_Recorder" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="535.2,1713.6" sap2010:WorkflowViewState.IdRef="Windows_Order_System_Recorder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Windows_Order_System_Recorder" sap:VirtualizedContainerService.HintSize="545.6,1648.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Sign in" sap:VirtualizedContainerService.HintSize="483.2,1536.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="1845267c-fa7d-4264-b06d-efafd1a29b33" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1245.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Staff Number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="1845267c-fa7d-4264-b06d-efafd1a29b33" Text="abc" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="112, 47, 125, 25" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'Password'" FullSelectorArgument="&lt;wnd ctrlname='txtUsername' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txtUsername' /&gt;" Guid="ba500ef3-6e60-4fca-8c45-24b79e95a805" InformativeScreenshot="5f4a0dad34b7043334a80b46a6373954.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='trainingordersystem.exe' ctrlname='frmLogin' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="18, 55, 86, 16" ElementType="Text" FriendlyName="'Staff Number'" FullSelectorArgument="&lt;wnd ctrlname='Label1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Label1' check:text='Staff Number' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="1845267c-fa7d-4264-b06d-efafd1a29b33" Text="abc" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="112, 91, 125, 25" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='txtPassword' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txtPassword' /&gt;" Guid="84eba353-4377-4b91-909d-4f5714c628d6" InformativeScreenshot="de6c21f8890143ff0863bb8a76dde48e.png" ScopeSelectorArgument="&lt;wnd app='trainingordersystem.exe' ctrlname='frmLogin' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="19, 100, 66, 16" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;wnd ctrlname='Label2' /&gt;&lt;ctrl name='Password' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Label2' /&gt;&lt;ctrl name='Password' role='text' automationid='' check:text='Password' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1845267c-fa7d-4264-b06d-efafd1a29b33" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="82, 131, 94, 29" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Sign In'" FullSelectorArgument="&lt;wnd ctrlname='Button1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Button1' check:text='Sign In' /&gt;" Guid="9f6f2cbb-9335-4ca6-b473-bf96e9ebbe29" InformativeScreenshot="de6c7148dc9995fb283f0dd07097b0e1.png" ScopeSelectorArgument="&lt;wnd app='trainingordersystem.exe' ctrlname='frmLogin' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Option number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="1845267c-fa7d-4264-b06d-efafd1a29b33" Text="1" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="125, 174, 81, 25" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'Option number'" FullSelectorArgument="&lt;wnd ctrlname='txtOption' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txtOption' /&gt;" Guid="c9d48c01-a16f-42bc-b316-805a2f1bda73" InformativeScreenshot="b0f376c3e86a4ab1077b48bb08440430.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='trainingordersystem.exe' ctrlname='frmMenu' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="19, 183, 99, 16" ElementType="Text" FriendlyName="'Option number'" FullSelectorArgument="&lt;wnd ctrlname='Label4' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Label4' check:text='Option number:' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Go'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1845267c-fa7d-4264-b06d-efafd1a29b33" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="228, 171, 124, 29" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Go'" FullSelectorArgument="&lt;wnd ctrlname='Button2' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='Button2' check:text='Go' /&gt;" Guid="4c6bc3cb-307b-48d2-a795-18cc2b6b2576" InformativeScreenshot="bba7ec39be3c53a7cb50cdba6e60661f.png" ScopeSelectorArgument="&lt;wnd app='trainingordersystem.exe' ctrlname='frmMenu' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Users\freel\Desktop\Trainings\Order System\trainingordersystem.exe" IconBase64="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" InformativeScreenshot="c05c87f75de914aff59b60788367f211.png" Selector="&lt;wnd app='trainingordersystem.exe' ctrlname='frmLogin' /&gt;" Title="Sign in" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

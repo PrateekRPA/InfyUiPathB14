@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7Ozrh9O9dESBp4TI9S7v-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://bptravel.blueprism.com/createquote.html" CvElementArea="680, 369, 19, 19" CvType="CheckBox" DesignTimeRectangle="684, 372, 16, 16" DesignTimeScaleFactor="1.25" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='oneway' tableRow='4' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='oneway' type='checkbox' tag='INPUT' class='checkbox' aaname='' /&gt;" Guid="899ba637-1db1-4248-bbd9-62c969fd21fc" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Create Quote' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bdd7dd6503721abc30913bee00343f96.png" xmlns="">0SxSPQB9PZUOpiulw7xwi-Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
