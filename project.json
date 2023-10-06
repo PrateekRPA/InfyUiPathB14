@@ -1,7 +1,7 @@
 {
   "name": "InfyB14Demo",
   "projectId": "5db7ca9f-4f68-4e95-b6ab-50ab96b154fd",
-  "description": "First Demo UiPath Infy B14",
+  "description": "Demo UiPath Infy B14",
   "main": "Main.xaml",
   "dependencies": {
     "InfyB14DemoLib": "[1.0.2]",
