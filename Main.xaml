@@ -113,7 +113,7 @@
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <i:StringManipulater sap:VirtualizedContainerService.HintSize="433.6,142.4" sap2010:WorkflowViewState.IdRef="StringManipulater_1" in_TestStr="hello UiPath Infy batch 14 Lib Demo" out_TestStr="[tetsStrOut]" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="433.6,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_16" Text="[&quot;Vlaue after library calling &quot;+tetsStrOut]" />
+    <WriteLine DisplayName="Display str" sap:VirtualizedContainerService.HintSize="433.6,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_16" Text="[&quot;Vlaue after library calling &quot;+tetsStrOut]" />
     <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_4">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[IOSample]</OutArgument>
